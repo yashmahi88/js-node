@@ -15,4 +15,4 @@ jobs:
     needs: call_setup_and_build
     uses: yashmahi88/python-package/.github/workflows/package.yml@development
     with:
-      LANGUAGE: ${{ vars.LANGUAGE }}  
+      LANGUAGE: ${{ vars.LANGUAGE }}   
